@@ -1,0 +1,81 @@
+{
+  "email": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='user-name']"
+  },
+
+  "clave": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='password']"
+  },
+
+  "login": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='login-button']"
+  },
+
+  "articulo1": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@name='add-to-cart-sauce-labs-backpack']"
+  },
+
+  "articulo2": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@name='add-to-cart-sauce-labs-bike-light']"
+  },
+
+  "verificar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@name='checkout']"
+  },
+
+  "nombreP": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='firstName']"
+  },
+
+  "nombreS": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='lastName']"
+  },
+
+  "codigo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='postalCode']"
+  },
+
+  "continuar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@name='continue']"
+  },
+
+  "finalizar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@name='finish']"
+  },
+
+  "home": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@name='back-to-products']"
+  },
+
+  "carrito": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@class='shopping_cart_link']"
+  },
+
+  "cancelar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@name='cancel']"
+  },
+
+  "menu": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@id='react-burger-menu-btn']"
+  },
+
+  "logout": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//a[@id='logout_sidebar_link']"
+  }
+}

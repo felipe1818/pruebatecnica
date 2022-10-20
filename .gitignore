@@ -1,0 +1,9 @@
+.allure/
+.idea/
+.idea/workspace.xml
+target/
+/.idea/
+/.idea/libraries/
+pom.xml
+Selenium.Cucumber.BaseFramework.iml
+.idea/misc.xml

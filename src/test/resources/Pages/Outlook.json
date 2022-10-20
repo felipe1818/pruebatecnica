@@ -1,0 +1,81 @@
+{
+  "Correo": {
+    "GetFieldBy": "id",
+    "ValueToFind": "i0116"
+  },
+
+  "Password": {
+    "GetFieldBy": "id",
+    "ValueToFind": "i0118"
+  },
+
+  "Siguiente": {
+    "GetFieldBy": "xPath",
+    "ValueToFind": "//input[@value='Siguiente']|//input[@value='Next']"
+  },
+  "Iniciar Sesion": {
+    "GetFieldBy": "xPath",
+    "ValueToFind": "//input[contains(@value,'Iniciar')]|//input[contains(@value,'Sign in')]"
+  },
+
+  "Mantener Sesion": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(text(),'Mantener')]"
+  },
+  "Buscador": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@aria-label='Buscar']"
+  },
+  "Boton Buscar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button/span/i[@data-icon-name=\"Search\"]"
+  },
+  "Resultado": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*/div/span[contains(.,'Respuesta ')]"
+  },
+  "Dos Adjuntos": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'2 datos adjuntos')]"
+  },
+  "Tres Adjuntos": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'3 datos adjuntos')]"
+  },
+  "Menu Carpetas": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//i[@data-icon-name='GlobalNavButton']"
+  },
+  "Correo no deseado": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[contains(.,'${CarpetaCorreo}')]"
+  },
+  "Ver Anexo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@role=\"option\"][contains(@aria-label,'Prueba')]"
+  },
+  "Ver Principal": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//div[@role=\"option\"][contains(@aria-label,'.pdf')][contains(@aria-label,'-')])[1]"
+  },
+  "Barra Visor": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[contains(@id,\"ModalFocusTrapZone\")]/div[2]/div[2]/div[1]"
+  },
+  "Cerrar Visor": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button/span/i[@data-icon-name='Cancel']"
+  },
+  "Submit": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//input[@type='submit']"
+  },
+  "Contenido Correo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div/br/.."
+  },
+  "Boton Eliminar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[@role='menuitem'][@name='Eliminar']"
+  }
+}
